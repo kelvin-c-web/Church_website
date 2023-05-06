@@ -14,3 +14,4 @@ this is a simple church website
 Feel free to download and use!
 
 # Copyright claims
+# beulahhephzibahhouseofgod_app
