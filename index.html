@@ -29,6 +29,8 @@
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
+
+
   <div id="overlayer"></div>
   <div class="loader">
     <div class="spinner-border text-primary" role="status">
@@ -81,7 +83,7 @@
                   <!-- </ul> -->
                 </li>
 
-                <li><a href="#portfolio-section" class="nav-link">Giveaway</a></li>
+                <li><a href="#Hayah-section" class="nav-link">Hayah Challenge</a></li>
                 <li><a href="#services-section" class="nav-link">Services</a></li>
                 <!-- <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li> -->
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
@@ -256,27 +258,26 @@
     </section>
 
 
-
-    <section class="site-section" id="portfolio-section">
+    <section class="site-section" id="Hayah-section">
 
       <div class="container">
 
         <div class="row mb-3">
           <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Giveaway</h2>
+            <h2 class="section-title mb-3">Hayah Challenge</h2>
           </div>
         </div>
-            <form action="index.php" method="post" class="p-5 bg-white">
+            <form action="index.php" method="post" id="info-section" class="p-5 bg-white">
 
               <h5 class="h4 text-black mb-5">Entry level</h5>
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">Title</label>
+                  <label class="text-black" for="title">Title</label>
                   <input type="text" id="fname" class="form-control">
                 </div>
                 <div class="col-md-6">
-                  <label class="text-black" for="lname">Full Name</label>
+                  <label class="text-black" for="fullname">Full Name</label>
                   <input type="text" id="lname" class="form-control">
                 </div>
               </div>
@@ -284,7 +285,7 @@
               <div class="row form-group">
 
                 <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label>
+                  <label class="text-black" for="Phonenumber">Phone number</label>
                   <input type="email" id="email" class="form-control">
                 </div>
               </div>
@@ -298,14 +299,14 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Social media username</label>
+                  <label class="text-black" for="infoname">Tiktok  username</label>
                   <input type="subject" id="subject" class="form-control">
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Submit" class="btn btn-primary btn-md text-white">
+                  <input type="submit" id="submit-btn" value="Submit" class="btn btn-primary btn-md text-white">
                 </div>
               </div>
             </form>
@@ -517,23 +518,22 @@
         <div class="row mb-5">
 
 
-
           <div class="col-md-4 text-center">
             <p class="mb-4">
               <span class="icon-room d-block h4 text-primary"></span>
-              <span>27, Shefiu Liadi street, OFF Ayo Bus/Stop, Via Agric Owutu Road,<br>Ikorodu, Lagos State.</span>
+              <span>27, Shefiu Liadi street, off Ayo Bus/Stop, asolo, Via Agric Owutu Road,<br>Ikorodu, Lagos State.</span>
             </p>
           </div>
           <div class="col-md-4 text-center">
             <p class="mb-4">
               <span class="icon-phone d-block h4 text-primary"></span>
-              <a href="#">08023220988, 08034205593</a>
+              <a href="#">08034205593</a>
             </p>
           </div>
           <div class="col-md-4 text-center">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <a href="#">beulahhephzibah416@gmail.com</a>
+              <a href="#">Beulahhephzibah27@gmail.com</a>
             </p>
           </div>
         </div>
@@ -541,20 +541,23 @@
           <div class="col-md-12 mb-5">
 
 
-
-            <form action="index.php" method="post" class="p-5 bg-white">
+            <form action="index.php" method="post" id="info-section" class="p-5 bg-white">
 
               <h2 class="h4 text-black mb-5">Contact Form</h2>
 
               <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
+                <div class="col-md-12">
+                  <label class="text-black" for="fullname">Full Name</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+                <!-- <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">First Name</label>
                   <input type="text" id="fname" class="form-control">
-                </div>
-                <div class="col-md-6">
+                </div> -->
+                <!-- <div class="col-md-6">
                   <label class="text-black" for="lname">Last Name</label>
                   <input type="text" id="lname" class="form-control">
-                </div>
+                </div> -->
               </div>
 
               <div class="row form-group">
@@ -582,7 +585,7 @@
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                  <input type="submit" id="submit-btn" value="Send Message" class="btn btn-primary btn-md text-white">
                 </div>
               </div>
 
